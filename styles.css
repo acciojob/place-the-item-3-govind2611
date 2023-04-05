@@ -1,5 +1,13 @@
-.holder{
-	display:flex;
-	flex-direction:row;
+
+/* Your CSS Code here. */
+.holder { 
+  display: flex;
+  flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.holder > div {
+  width: 80px;
+  height:80px;
+  font-size: 30px;
 }
